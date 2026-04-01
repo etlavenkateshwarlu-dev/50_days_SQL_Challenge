@@ -11,3 +11,27 @@ city varchar(40),
 dept_id varchar(40),
 hire_date varchar(40)
 );
+
+Day2 :Cleaned table creation 
+==============================================================
+
+
+create  table  cleaned_departments 
+as 
+select * from departments ;
+
+create table cleaned_employees
+as
+select * from employees;
+
+create table cleaned_performance
+as
+select * from performance p ;
+
+create table cleaned_salaries
+as
+select * from salaries ;
+
+create table cleaned_attendance
+as
+select * from attendance ;
