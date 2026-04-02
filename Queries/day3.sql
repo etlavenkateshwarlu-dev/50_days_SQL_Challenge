@@ -34,3 +34,5 @@ select emp_id,rating_2022,rating_2023,rating_2024   ,count(*)
 from cleaned_performance 
 group by emp_id,rating_2022,rating_2023,rating_2024 having count(*)>1 ;
 
+
+
