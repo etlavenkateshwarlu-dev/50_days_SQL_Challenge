@@ -27,3 +27,37 @@ update cleaned_employees set age = case when emp_id='20' then '32'
 									    else age 
 									    end;
 
+
+
+UPDATE cleaned_salaries
+SET salary = CASE
+    WHEN emp_id = '463' THEN '55000'
+    WHEN emp_id = '142' THEN '60000'
+    WHEN emp_id = '100' THEN '45000'
+    WHEN emp_id = '30'  THEN '70000'
+    WHEN emp_id = '54'  THEN '52000'
+    WHEN emp_id = '310' THEN '48000'
+    WHEN emp_id = '183' THEN '51000'
+    WHEN emp_id = '168' THEN '47000'
+    WHEN emp_id = '126' THEN '46000'
+    WHEN emp_id = '206' THEN '58000'
+    WHEN emp_id = '76'  THEN '49000'
+    WHEN emp_id = '433' THEN '62000'
+    WHEN emp_id = '34'  THEN '53000'
+    WHEN emp_id = '226' THEN '51000'
+    WHEN emp_id = '113' THEN '50000'
+    WHEN emp_id = '273' THEN '52000'
+    WHEN emp_id = '200' THEN '48000'
+    WHEN emp_id = '160' THEN '47000'
+    WHEN emp_id = '42'  THEN '46000'
+    WHEN emp_id = '150' THEN '49000'
+    WHEN emp_id = '45'  THEN '53000'
+    WHEN emp_id = '65'  THEN '54000'
+    WHEN emp_id = '488' THEN '60000'
+    WHEN emp_id = '8'   THEN '45000'
+    WHEN emp_id = '121' THEN '50000'
+    WHEN emp_id = '78'  THEN '47000'
+    WHEN emp_id = '94'  THEN '46000'
+    WHEN emp_id = '353' THEN '52000'
+    ELSE salary
+END;
