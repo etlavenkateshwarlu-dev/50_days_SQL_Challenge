@@ -35,9 +35,10 @@ group by d.dept_name having count(*) >1;
 
 --4 whihc employe has more than one salary record
 
-select e.emp_name ,count(s.salary_id ) as salary_records
+select e.emp_id,e.emp_name ,count(s.salary_id ) as salary_records
 from cleaned_employees e
 join cleaned_salaries s
 on e.emp_id=s.emp_id
-group by emp_name
+group by e.emp_id,e.emp_name
 having count(s.salary_id ) >1;
+
