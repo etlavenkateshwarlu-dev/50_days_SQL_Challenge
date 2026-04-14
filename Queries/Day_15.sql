@@ -11,7 +11,7 @@ select e.emp_id ,e.emp_name
 from cleaned_employees e
 where not exists (select * from cleaned_salaries s where s.emp_id=e.emp_id);
 
--- 3 Get teh employees with attendence 
+-- 3 Get teh employees with attendence table
 
 select ce.emp_id ,ce.emp_name 
 from cleaned_employees ce
