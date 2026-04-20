@@ -25,7 +25,7 @@ from cleaned_employees es
 join cleaned_performance cp 
 on es.emp_id =cp.emp_id ;
 
--- 4 .Salary ranking for top 3 employe 
+-- 4 .Salary ranking for top 3 employes
 
 select * from (
 select es.emp_id, es.emp_name ,(cp.rating_2022+cp.rating_2023+cp.rating_2024)/3 as average_rarting,
