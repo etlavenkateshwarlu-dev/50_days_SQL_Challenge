@@ -19,10 +19,11 @@ select
 	sum(payment_amount ) as total_revuneu
 from cleaned_payments;
 
+
 --5 total product sale 
 select 
-	count(product_id ) as total_products_sale
-from cleaned_products;
+	count(quantity ) as total_products_sale
+from cleaned_order_details;
 
 --6 order for customer 
 select 
