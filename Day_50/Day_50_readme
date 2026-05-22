@@ -1,0 +1,86 @@
+Top 10 Business Insights (10 lines)
+    Identify top-performing employees for promotions and retention planning.
+    Track department-wise salary expenses to control payroll costs.
+    Detect salary growth trends and compensation anomalies over time.
+    Monitor employee attendance patterns to identify absenteeism risks.
+    Find top revenue-generating customers for loyalty and retention campaigns.
+    Analyze best-selling and low-performing products for inventory decisions.
+    Track monthly sales/revenue trends for forecasting and seasonal planning.
+    Measure average order value to improve upselling and pricing strategies.
+    Segment customers based on purchase frequency and revenue contribution.
+    Improve business reporting accuracy through data cleaning and validation.
+
+SQL Topics Used Across All Files
+
+Basic SQL
+
+SELECT
+WHERE
+ORDER BY
+GROUP BY
+HAVING
+DISTINCT
+LIMIT
+
+Joins
+
+INNER JOIN
+LEFT JOIN
+SELF JOIN
+
+Aggregate Functions
+
+SUM()
+AVG()
+COUNT()
+MIN()
+MAX()
+
+Subqueries
+
+Nested subqueries
+Correlated subqueries
+EXISTS
+
+Window Functions
+
+ROW_NUMBER()
+RANK()
+DENSE_RANK()
+LAG()
+LEAD()
+PARTITION BY
+OVER()
+
+CTE
+
+WITH clause
+Multiple CTEs
+
+Conditional Logic
+
+CASE WHEN
+IF logic
+
+Data Cleaning
+
+UPDATE
+DELETE
+ALTER TABLE
+TRIM()
+CAST()
+NULL handling
+Duplicate removal
+
+Database Objects
+
+VIEW
+TEMP TABLE
+INDEX
+STORED PROCEDURE
+TRIGGER
+
+Date Functions
+
+Date extraction
+Date filtering
